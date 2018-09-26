@@ -67,4 +67,16 @@ Recebe da certificadora a chave publica assinada = certificado.
 Go lang - Protobuffers - GRPC
 
 
+############################################3
+3 dia
+Certificados - Nao usa x509
+	MSP - Certificados de autenticacao e autorizacao entre organizacoes
+	TLS -  Certificados de conexao entre peers
+	SHA256SUM Publico (Hexa->String) - Usado para manter historico de certificados revogados.
+
+
+Configuracoes - Configtx
+	Peers - Peers internos, sem comunicacao com mundo externo
+	Anchor - Deve ser o unico peer que expoe para outras redes / mundo externo da organizacao
+
 
